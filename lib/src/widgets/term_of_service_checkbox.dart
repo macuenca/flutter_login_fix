@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/src/models/term_of_service.dart';
+import 'package:flutter_login_fix/src/models/term_of_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TermCheckbox extends StatefulWidget {

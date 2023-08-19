@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/src/models/login_user_type.dart';
+import 'package:flutter_login_fix/src/models/login_user_type.dart';
 
 class UserFormField {
   /// The name of the field retrieved as key.

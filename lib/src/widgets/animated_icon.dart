@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'package:flutter_login/src/widgets/ring.dart';
+import 'package:flutter_login_fix/src/widgets/ring.dart';
 
 ///similar a AnimatedButton but has an icon instead of textButton
 //(basically its a modified version of the AnimatedButton Widget and may need to be cleaned up)

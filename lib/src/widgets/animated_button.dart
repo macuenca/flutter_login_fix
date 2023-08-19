@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_login/src/widgets/animated_text.dart';
-import 'package:flutter_login/src/widgets/ring.dart';
+import 'package:flutter_login_fix/src/widgets/animated_text.dart';
+import 'package:flutter_login_fix/src/widgets/ring.dart';
 
 class AnimatedButton extends StatefulWidget {
   const AnimatedButton({

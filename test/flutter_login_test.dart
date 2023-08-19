@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'package:flutter_login/src/constants.dart';
-import 'package:flutter_login/src/widgets/animated_text.dart';
+import 'package:flutter_login_fix/flutter_login.dart';
+import 'package:flutter_login_fix/src/constants.dart';
+import 'package:flutter_login_fix/src/widgets/animated_text.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

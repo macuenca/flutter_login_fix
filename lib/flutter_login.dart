@@ -5,21 +5,21 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
-import 'package:flutter_login/src/color_helper.dart';
-import 'package:flutter_login/src/constants.dart';
-import 'package:flutter_login/src/dart_helper.dart';
-import 'package:flutter_login/src/models/login_user_type.dart';
-import 'package:flutter_login/src/models/term_of_service.dart';
-import 'package:flutter_login/src/models/user_form_field.dart';
-import 'package:flutter_login/src/providers/auth.dart';
-import 'package:flutter_login/src/providers/login_messages.dart';
-import 'package:flutter_login/src/providers/login_theme.dart';
-import 'package:flutter_login/src/regex.dart';
-import 'package:flutter_login/src/widgets/cards/auth_card_builder.dart';
-import 'package:flutter_login/src/widgets/fade_in.dart';
-import 'package:flutter_login/src/widgets/gradient_box.dart';
-import 'package:flutter_login/src/widgets/hero_text.dart';
-import 'package:flutter_login/theme.dart';
+import 'package:flutter_login_fix/src/color_helper.dart';
+import 'package:flutter_login_fix/src/constants.dart';
+import 'package:flutter_login_fix/src/dart_helper.dart';
+import 'package:flutter_login_fix/src/models/login_user_type.dart';
+import 'package:flutter_login_fix/src/models/term_of_service.dart';
+import 'package:flutter_login_fix/src/models/user_form_field.dart';
+import 'package:flutter_login_fix/src/providers/auth.dart';
+import 'package:flutter_login_fix/src/providers/login_messages.dart';
+import 'package:flutter_login_fix/src/providers/login_theme.dart';
+import 'package:flutter_login_fix/src/regex.dart';
+import 'package:flutter_login_fix/src/widgets/cards/auth_card_builder.dart';
+import 'package:flutter_login_fix/src/widgets/fade_in.dart';
+import 'package:flutter_login_fix/src/widgets/gradient_box.dart';
+import 'package:flutter_login_fix/src/widgets/hero_text.dart';
+import 'package:flutter_login_fix/theme.dart';
 import 'package:provider/provider.dart';
 import 'package:sign_in_button/sign_in_button.dart';
 
@@ -393,7 +393,7 @@ class FlutterLogin extends StatefulWidget {
   final bool hideProvidersTitle;
 
   /// Disable the page transformation between switching authentication modes.
-  /// Fixes #97 if disabled. https://github.com/NearHuscarl/flutter_login/issues/97
+  /// Fixes #97 if disabled. https://github.com/NearHuscarl/flutter_login_fix/issues/97
   final bool disableCustomPageTransformer;
 
   /// Navigate back to the login screen after recovery of password.

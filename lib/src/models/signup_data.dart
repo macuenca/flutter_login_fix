@@ -1,4 +1,4 @@
-import 'package:flutter_login/src/models/term_of_service.dart';
+import 'package:flutter_login_fix/src/models/term_of_service.dart';
 import 'package:quiver/core.dart';
 
 class SignupData {

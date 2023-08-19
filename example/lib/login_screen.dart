@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
-import 'package:flutter_login/flutter_login.dart';
+import 'package:flutter_login_fix/flutter_login.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:login_example/constants.dart';

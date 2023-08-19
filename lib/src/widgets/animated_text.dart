@@ -3,9 +3,9 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_login/src/math_helper.dart';
-import 'package:flutter_login/src/matrix.dart';
-import 'package:flutter_login/src/widget_helper.dart';
+import 'package:flutter_login_fix/src/math_helper.dart';
+import 'package:flutter_login_fix/src/matrix.dart';
+import 'package:flutter_login_fix/src/widget_helper.dart';
 
 enum AnimatedTextRotation { up, down }
 
